@@ -114,5 +114,5 @@ node default {
   package { 'evernote': provider => 'brewcask' }
   package { 'dropbox': provider => 'brewcask' }
   package { 'skype': provider => 'brewcask' }
-  package { 'skitch', provider => 'brewcask' }
+  package { 'skitch': provider => 'brewcask' }
 }
