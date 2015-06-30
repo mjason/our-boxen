@@ -1,14 +1,4 @@
 GITHUBTARBALL
-  remote: boxen/puppet-alfred
-  specs:
-    alfred (1.5.0)
-
-GITHUBTARBALL
-  remote: boxen/puppet-android
-  specs:
-    android (1.5.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-bbedit
   specs:
     bbedit (1.0.6)
@@ -24,24 +14,9 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.4.1)
-
-GITHUBTARBALL
-  remote: boxen/puppet-evernote
-  specs:
-    evernote (2.0.7)
 
 GITHUBTARBALL
   remote: boxen/puppet-foreman
@@ -119,11 +94,6 @@ GITHUBTARBALL
     ruby (8.5.2)
 
 GITHUBTARBALL
-  remote: boxen/puppet-skype
-  specs:
-    skype (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -149,15 +119,10 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  alfred (>= 0)
-  android (>= 0)
   bbedit (>= 0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
-  chrome (>= 0)
   dnsmasq (= 2.0.1)
-  dropbox (>= 0)
-  evernote (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.1)
   git (= 2.7.9)
@@ -175,7 +140,6 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   repository (= 2.4.1)
   ruby (= 8.5.2)
-  skype (>= 0)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)

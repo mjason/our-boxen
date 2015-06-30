@@ -1,3 +1,3 @@
 class people::mjason {
-  include bbedit
+  include dropbox
 }
