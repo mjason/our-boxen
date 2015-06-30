@@ -92,7 +92,6 @@ node default {
   android::build_tools { '22.0.1': }
   
   # zsh
-  include zsh
   include ohmyzsh
   
   # common, useful packages
