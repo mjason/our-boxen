@@ -74,6 +74,6 @@ github 'java', '1.8.3'
 #github 'alfred'
 #github 'evernote'
 #github 'skype'
-github 'bbedit', repo: "mjason/puppet-bbedit"
+github 'bbedit', "2.0.0", repo: "mjason/puppet-bbedit"
 
 #github "android"
