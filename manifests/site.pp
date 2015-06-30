@@ -58,6 +58,8 @@ node default {
   include hub
   include nginx
   include iterm2::stable
+  include iterm2::colors::solarized_dark
+
   include java
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
