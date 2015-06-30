@@ -68,12 +68,7 @@ github "xquartz",     "1.2.1"
 
 github 'iterm2'
 github 'java', '1.8.3'
-
-#github 'dropbox'
-#github 'chrome'
-#github 'alfred'
-#github 'evernote'
-#github 'skype'
 github 'bbedit', "2.0.0", repo: "mjason/puppet-bbedit"
-
-#github "android"
+github "android"
+github "zsh"
+github "ohmyzsh", "1.0.0", repo: "erivello/puppet-ohmyzsh"

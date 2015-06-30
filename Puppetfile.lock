@@ -14,11 +14,6 @@ GITHUBTARBALL
     dnsmasq (2.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-dropbox
-  specs:
-    dropbox (1.4.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -104,6 +99,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: mjason/puppet-bbedit
+  specs:
+    bbedit (2.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -119,10 +119,10 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
+  bbedit (= 2.0.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
   dnsmasq (= 2.0.1)
-  dropbox (>= 0)
   foreman (= 1.2.0)
   gcc (= 2.2.1)
   git (= 2.7.9)
