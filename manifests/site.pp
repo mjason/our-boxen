@@ -61,6 +61,7 @@ node default {
   include iterm2::colors::solarized_dark
 
   include java
+  include bbedit
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
