@@ -69,11 +69,11 @@ github "xquartz",     "1.2.1"
 github 'iterm2'
 github 'java', '1.8.3'
 
-github 'dropbox'
-github 'chrome'
-github 'alfred'
-github 'evernote'
-github 'skype'
+#github 'dropbox'
+#github 'chrome'
+#github 'alfred'
+#github 'evernote'
+#github 'skype'
 github 'bbedit'
 
-github "android"
+#github "android"
