@@ -57,7 +57,6 @@ node default {
   include git
   include hub
   include nginx
-  include brewcask
   include java
   
   include iterm2::stable
@@ -80,20 +79,7 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
-  
-  # android setting
-  include android::sdk
-  include android::ndk
-  include android::tools
-  include android::platform_tools
-  include android::22
-  include android::studio
-  
-  android::build_tools { '22.0.1': }
-  
-  # zsh
-  include ohmyzsh
-  
+    
   # common, useful packages
   package {
     [
@@ -108,10 +94,4 @@ node default {
     target => $boxen::config::repodir
   }
   
-  package { 'alfred': provider => 'brewcask' }
-  package { 'google-chrome': provider => 'brewcask' }
-  package { 'evernote': provider => 'brewcask' }
-  package { 'dropbox': provider => 'brewcask' }
-  package { 'skype': provider => 'brewcask' }
-  package { 'skitch': provider => 'brewcask' }
 }
