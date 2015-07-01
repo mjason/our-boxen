@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: boxen/puppet-android
-  specs:
-    android (1.5.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.10.4)
@@ -104,11 +99,6 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
-  remote: erivello/puppet-ohmyzsh
-  specs:
-    ohmyzsh (1.0.0)
-
-GITHUBTARBALL
   remote: mjason/puppet-bbedit
   specs:
     bbedit (2.0.0)
@@ -129,7 +119,6 @@ GITHUBTARBALL
     module_data (0.0.3)
 
 DEPENDENCIES
-  android (>= 0)
   bbedit (= 2.0.0)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
@@ -146,7 +135,6 @@ DEPENDENCIES
   module_data (= 0.0.3)
   nginx (= 1.4.5)
   nodejs (= 4.0.1)
-  ohmyzsh (= 1.0.0)
   openssl (= 1.0.0)
   phantomjs (= 2.4.0)
   pkgconfig (= 1.0.0)

@@ -79,6 +79,12 @@ node default {
   ruby::version { '2.1.0': }
   ruby::version { '2.1.1': }
   ruby::version { '2.1.2': }
+  
+  # android setting
+  include android::sdk
+  include android::ndk
+  include android::tools
+  include android::platform_tools
     
   # common, useful packages
   package {
